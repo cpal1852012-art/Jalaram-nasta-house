@@ -1191,82 +1191,66 @@ footer > p {
     margin: 0 auto 12px;
 }
     
-    /* FIX: Floating WhatsApp and Call Buttons */
+    
+/* WhatsApp and Call Floating Buttons */
 
 .floating-contact {
-    position: fixed !important;
-    right: 20px !important;
-    bottom: 25px !important;
-    top: auto !important;
-    left: auto !important;
-
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 14px !important;
-
-    width: auto !important;
-    height: auto !important;
-    z-index: 99999 !important;
+    position: fixed;
+    right: 18px;
+    bottom: 25px;
+    top: auto;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    z-index: 9999;
 }
 
 .floating-contact .contact-btn {
-    position: relative !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    width: 58px !important;
-    height: 58px !important;
-    min-width: 58px !important;
-    min-height: 58px !important;
-
-    padding: 0 !important;
-    margin: 0 !important;
-    border-radius: 50% !important;
-    box-sizing: border-box !important;
-    text-decoration: none !important;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.20) !important;
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .floating-contact .contact-btn svg {
-    display: block !important;
-    width: 29px !important;
-    height: 29px !important;
-    max-width: 29px !important;
-    max-height: 29px !important;
-    flex-shrink: 0 !important;
+    width: 27px;
+    height: 27px;
+    max-width: 27px;
+    max-height: 27px;
+    display: block;
+    flex-shrink: 0;
 }
 
 .floating-contact .whatsapp-btn {
-    background: #25D366 !important;
-    color: #ffffff !important;
+    background: #25D366;
+    color: #ffffff;
 }
 
 .floating-contact .call-btn {
-    background: #A83219 !important;
-    color: #ffffff !important;
+    background: #A83219;
+    color: #ffffff;
 }
 
-.floating-contact .contact-btn:active {
-    transform: scale(0.94);
-}
-
-/* Mobile position */
 @media (max-width: 767px) {
     .floating-contact {
-        right: 14px !important;
-        bottom: 25px !important;
-        gap: 12px !important;
+        right: 14px;
+        bottom: 25px;
+        gap: 12px;
     }
 }
 
-/* Desktop position */
-@media (min-width: 768px) {
-    .floating-contact {
-        right: 28px !important;
-        bottom: 25px !important;
-        gap: 14px !important;
-    }
-}
