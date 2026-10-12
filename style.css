@@ -1190,4 +1190,47 @@ footer > p {
     display: block;
     margin: 0 auto 12px;
 }
+    /* Floating WhatsApp and Call Buttons */
+
+.floating-contact {
+    position: fixed;
+    right: 18px;
+    bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    z-index: 9999;
+}
+
+.contact-btn {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.22);
+    transition: transform 0.2s ease;
+}
+
+.contact-btn:active {
+    transform: scale(0.92);
+}
+
+.contact-btn svg {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: #ffffff;
+}
+
+.call-btn {
+    background-color: #A83218;
+    color: #ffffff;
+}
 
