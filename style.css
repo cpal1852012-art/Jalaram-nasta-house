@@ -1253,4 +1253,28 @@ footer > p {
         gap: 12px;
     }
 }
+.gallery-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    padding-bottom: 12px;
+}
 
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-card h3 {
+    margin: 12px 0 5px;
+    color: #7b241c;
+}
+
+.gallery-card p {
+    margin: 0 10px;
+    color: #555;
+}
