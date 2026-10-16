@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
@@ -1791,3 +1792,360 @@ footer > p {
         transition: none;
     }
     }
+/* =====================================
+   JALARAM KHAMAN HOUSE - MENU DESIGN
+   Royal Maroon + Gold
+===================================== */
+
+.menu-page {
+    margin: 0;
+    background: #fffaf1;
+    color: #382016;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 6%;
+    background: #fffdf8;
+    border-bottom: 3px solid #d5a448;
+}
+
+.menu-title {
+    margin: 0;
+    color: #821d25;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu-tagline {
+    margin: 7px 0 0;
+    color: #80685a;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.menu-home {
+    padding: 11px 20px;
+    background: #821d25;
+    color: #fff4d6;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-home:hover {
+    background: #b12d32;
+}
+
+/* HERO BANNER */
+
+.menu-banner {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #401016, #8b1e28, #58131c);
+    color: #fff4d6;
+    border-bottom: 5px solid #d9a23b;
+}
+
+.menu-banner h1 {
+    margin: 0 0 15px;
+    color: #f4d58c;
+    font-family: Georgia, serif;
+    font-size: clamp(38px, 7vw, 62px);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.menu-banner p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* CATEGORY NAVIGATION */
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 22px 15px;
+    background: #f7ead2;
+    border-bottom: 1px solid #e2c58f;
+}
+
+.menu-links a {
+    padding: 11px 19px;
+    color: #781b23;
+    background: #fffdf7;
+    border: 1px solid #d4ac61;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.menu-links a:hover {
+    background: #821d25;
+    color: #fff4d6;
+    border-color: #821d25;
+}
+
+/* MAIN MENU CONTAINER */
+
+.menu-content {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 40px 22px 55px;
+    box-sizing: border-box;
+}
+
+/* CATEGORY SECTION */
+
+.menu-category {
+    margin-bottom: 42px;
+    scroll-margin-top: 20px;
+}
+
+.menu-category h2 {
+    margin: 0 0 22px;
+    padding: 0 0 14px;
+    color: #821d25;
+    border-bottom: 2px solid #d9a23b;
+    font-family: Georgia, serif;
+    font-size: clamp(23px, 4vw, 31px);
+}
+
+/* INDIVIDUAL MENU ITEM */
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 13px;
+    padding: 20px;
+    background: #fffdf7;
+    border: 1px solid #ead7b2;
+    border-left: 4px solid #941f24;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(80, 35, 10, 0.06);
+    box-sizing: border-box;
+    transition: 0.25s;
+}
+
+.menu-item:hover {
+    border-left-color: #d9a23b;
+    box-shadow: 0 7px 18px rgba(80, 35, 10, 0.12);
+    transform: translateY(-2px);
+}
+
+/* ITEM NAME */
+
+.item-name {
+    margin: 0 0 7px;
+    color: #542019;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+/* ITEM DESCRIPTION */
+
+.item-description {
+    margin: 0;
+    color: #806b57;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* PRICE */
+
+.item-price {
+    flex-shrink: 0;
+    color: #941f24;
+    font-size: 19px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+/* MENU NOTE */
+
+.menu-note {
+    padding: 24px 18px;
+    margin-top: 15px;
+    background: #f7ead2;
+    border: 1px dashed #c99538;
+    border-radius: 10px;
+    color: #67452e;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.menu-note strong {
+    color: #821d25;
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+.menu-footer {
+    padding: 38px 18px;
+    background: #4a1118;
+    border-top: 5px solid #d4a447;
+    color: #f9e7c3;
+    text-align: center;
+}
+
+.menu-footer h2 {
+    margin: 0 0 12px;
+    color: #f1d08b;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+.menu-footer p {
+    margin: 10px 0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.menu-footer a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 11px 20px;
+    color: #fff3d9;
+    border: 1px solid #d4a447;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.menu-footer a:hover {
+    background: #d4a447;
+    color: #401016;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    .menu-top {
+        padding: 16px 14px;
+        gap: 10px;
+    }
+
+    .menu-title {
+        font-size: 18px;
+    }
+
+    .menu-tagline {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .menu-home {
+        padding: 10px 13px;
+        font-size: 11px;
+    }
+
+    .menu-banner {
+        padding: 42px 15px;
+    }
+
+    .menu-banner p {
+        font-size: 14px;
+    }
+
+    .menu-links {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 9px;
+        padding: 15px 12px;
+    }
+
+    .menu-links a {
+        flex-shrink: 0;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .menu-content {
+        padding: 28px 13px 40px;
+    }
+
+    .menu-category {
+        margin-bottom: 32px;
+    }
+
+    .menu-category h2 {
+        font-size: 23px;
+        margin-bottom: 17px;
+    }
+
+    .menu-item {
+        gap: 10px;
+        padding: 16px 12px;
+        margin-bottom: 11px;
+    }
+
+    .item-name {
+        font-size: 16px;
+    }
+
+    .item-description {
+        font-size: 12px;
+    }
+
+    .item-price {
+        font-size: 15px;
+    }
+
+    .menu-note {
+        padding: 20px 12px;
+        font-size: 13px;
+    }
+
+    .menu-footer h2 {
+        font-size: 21px;
+    }
+}
+
+/* SMALL MOBILE SCREENS */
+
+@media (max-width: 360px) {
+
+    .menu-title {
+        font-size: 16px;
+    }
+
+    .menu-home {
+        padding: 9px;
+        font-size: 10px;
+    }
+
+    .menu-item {
+        padding: 14px 9px;
+    }
+
+    .item-name {
+        font-size: 15px;
+    }
+
+    .item-price {
+        font-size: 14px;
+    }
+}
