@@ -1,250 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <title>Our Menu | Jalaram Khaman House</title>
 
-    <title>Menu | Jalaram nasta House</title>
+    <meta name="description"
+          content="Explore the delicious Gujarati snacks menu at Jalaram Khaman House.">
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
+<!-- HEADER -->
+<header class="menu-header">
+    <div class="menu-brand">
+        <img src="logo.png" alt="Jalaram Khaman House Logo">
 
-<header class="navbar">
-
-    <a href="index.html" class="brand">
-
-        <img src="logo.png" alt="Logo">
-
-        <div class="brand-text">
-            <h1>Jalaram nasta
-            House</h1>
-            <span>Authentic Gujarati Taste</span>
+        <div>
+            <h2>Jalaram Khaman House</h2>
+            <p>Authentic Gujarati Taste</p>
         </div>
+    </div>
 
-    </a>
-
-    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
-    <nav id="navMenu">
-
-        <a href="index.html">Home</a>
-        <a href="menu.html" class="active">Menu</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-
-    </nav>
-
+    <a href="index.html" class="home-btn">⌂ Home</a>
 </header>
 
 
-<section class="page-hero">
+<!-- HERO SECTION -->
+<section class="menu-hero">
+    <span class="hero-tag">✦ FRESH • TASTY • TRADITIONAL ✦</span>
 
-    <span>OUR MENU</span>
+    <h1>Our Special Menu</h1>
 
-    <h2>Delicious Choices</h2>
+    <p>Har Bite Mein Gujarati Swad!</p>
 
-    <p>
-        Freshly prepared favourites for every craving.
-    </p>
-
+    <div class="hero-decoration">❖ ━━━━━━━━━ ❖</div>
 </section>
 
 
-<section class="menu-section">
+<!-- MENU NAVIGATION -->
+<nav class="menu-categories">
+    <a href="#khaman">Khaman & Dhokla</a>
+    <a href="#snacks">Snacks & Farsan</a>
+    <a href="#chaat">Chaat</a>
+    <a href="#drinks">Drinks</a>
+</nav>
 
 
-    <!-- KHAMAN -->
+<!-- KHAMAN & DHOKLA -->
+<section class="menu-section" id="khaman">
 
-    <div class="menu-category">
-
-        <h2>Khaman Specials</h2>
-
-        <div class="menu-items">
-
-            <div class="menu-item">
-                <div>
-                    <h3>Iron Khaman</h3>
-                    <p>Soft and fresh khaman.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Vati Dal Khaman</h3>
-                    <p>Traditional dal-based khaman.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Khaman</h3>
-                    <p>Classic Gujarati favourite.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
+    <div class="section-heading">
+        <span>01</span>
+        <div>
+            <h2>Khaman & Dhokla</h2>
+            <p>Soft, fresh and full of flavour</p>
         </div>
-
     </div>
 
+    <div class="menu-grid">
 
-    <!-- STREET FOOD -->
-
-    <div class="menu-category">
-
-        <h2>Street Food</h2>
-
-        <div class="menu-items">
-
-            <div class="menu-item">
-                <div>
-                    <h3>Dabeli</h3>
-                    <p>Sweet, spicy and flavourful.</p>
+        <article class="food-card">
+            <div class="food-icon">🍋</div>
+            <div class="food-info">
+                <h3>Vati Dal Khaman</h3>
+                <p>Traditional Gujarati favourite</p>
+                <div class="food-bottom">
+                    <span class="food-weight">110 g</span>
+                    <strong>₹30</strong>
                 </div>
-                <span>₹ —</span>
             </div>
+        </article>
 
-            <div class="menu-item">
-                <div>
-                    <h3>Vada Pav</h3>
-                    <p>Classic street food favourite.</p>
+        <article class="food-card">
+            <div class="food-icon">🍽️</div>
+            <div class="food-info">
+                <h3>Nylon Khaman</h3>
+                <p>Soft and fluffy khaman</p>
+                <div class="food-bottom">
+                    <span class="food-weight">110 g</span>
+                    <strong>₹30</strong>
                 </div>
-                <span>₹ —</span>
             </div>
+        </article>
 
-            <div class="menu-item">
-                <div>
-                    <h3>Samosa</h3>
-                    <p>Crispy and tasty.</p>
+        <article class="food-card">
+            <div class="food-icon">🥣</div>
+            <div class="food-info">
+                <h3>Sandwich Dhokla</h3>
+                <p>A delicious layered snack</p>
+                <div class="food-bottom">
+                    <span class="food-weight">110 g</span>
+                    <strong>₹30</strong>
                 </div>
-                <span>₹ —</span>
             </div>
+        </article>
 
-            <div class="menu-item">
-                <div>
-                    <h3>Pakodi</h3>
-                    <p>Crispy and freshly prepared.</p>
+        <article class="food-card">
+            <div class="food-icon">🌿</div>
+            <div class="food-info">
+                <h3>Sev Khamani</h3>
+                <p>Gujarati farsan classic</p>
+                <div class="food-bottom">
+                    <span class="food-weight">110 g</span>
+                    <strong>₹30</strong>
                 </div>
-                <span>₹ —</span>
             </div>
+        </article>
 
-        </div>
+        <article class="food-card">
+            <div class="food-icon">🍃</div>
+            <div class="food-info">
+                <h3>Khandvi</h3>
+                <p>Delicate Gujarati rolls</p>
+                <div class="food-bottom">
+                    <span class="food-weight">110 g</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🌱</div>
+            <div class="food-info">
+                <h3>Patra</h3>
+                <p>Traditional Gujarati delicacy</p>
+                <div class="food-bottom">
+                    <span class="food-weight">110 g</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥟</div>
+            <div class="food-info">
+                <h3>Dal Vada</h3>
+                <p>Crispy and savoury</p>
+                <div class="food-bottom">
+                    <span class="food-weight">80 g</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
 
     </div>
-
-
-    <!-- CHAAT -->
-
-    <div class="menu-category">
-
-        <h2>Chaat Corner</h2>
-
-        <div class="menu-items">
-
-            <div class="menu-item">
-                <div>
-                    <h3>Pani Puri</h3>
-                    <p>Fresh and flavourful.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Dahi Puri</h3>
-                    <p>Creamy, tangy and delicious.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Sev Puri</h3>
-                    <p>Crispy chaat loaded with flavour.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- FAST FOOD -->
-
-    <div class="menu-category">
-
-        <h2>Fast Food</h2>
-
-        <div class="menu-items">
-
-            <div class="menu-item">
-                <div>
-                    <h3>Frankie</h3>
-                    <p>Delicious and filling.</p>
-                </div>
-                <span>₹ —</span>
-            </div>
-
-        </div>
-
-    </div>
-
-
 </section>
 
 
-<section class="cta">
+<!-- SNACKS & FARSAN -->
+<section class="menu-section alternate-section" id="snacks">
 
-    <h2>Want To Know More?</h2>
+    <div class="section-heading">
+        <span>02</span>
+        <div>
+            <h2>Snacks & Farsan</h2>
+            <p>Perfect bites for every craving</p>
+        </div>
+    </div>
 
-    <p>
-        Contact us for today's menu and prices.
-    </p>
+    <div class="menu-grid">
 
-    <a href="contact.html" class="btn white">
-        Contact Us
-    </a>
+        <article class="food-card">
+            <div class="food-icon">🥟</div>
+            <div class="food-info">
+                <h3>Punjabi Samosa</h3>
+                <p>Golden and crispy</p>
+                <div class="food-bottom">
+                    <span class="food-weight">2 pieces</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
 
+        <article class="food-card">
+            <div class="food-icon">🥟</div>
+            <div class="food-info">
+                <h3>Mini Samosa</h3>
+                <p>Small bites, big flavour</p>
+                <div class="food-bottom">
+                    <span class="food-weight">5 pieces</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥟</div>
+            <div class="food-info">
+                <h3>Navtali Samosa</h3>
+                <p>A tasty snack option</p>
+                <div class="food-bottom">
+                    <span class="food-weight">4 pieces</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🧀</div>
+            <div class="food-info">
+                <h3>Chinese Samosa</h3>
+                <p>Crunchy and savoury</p>
+                <div class="food-bottom">
+                    <span class="food-weight">3 pieces</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🧀</div>
+            <div class="food-info">
+                <h3>Cheese Samosa</h3>
+                <p>A cheesy snack</p>
+                <div class="food-bottom">
+                    <span class="food-weight">3 pieces</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥟</div>
+            <div class="food-info">
+                <h3>Jamnagari Ghughra</h3>
+                <p>Traditional Gujarati snack</p>
+                <div class="food-bottom">
+                    <span class="food-weight">2 pieces</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🍔</div>
+            <div class="food-info">
+                <h3>Butter Dabeli</h3>
+                <p>Spicy, sweet and delicious</p>
+                <div class="food-bottom">
+                    <span class="food-weight">1 piece</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥪</div>
+            <div class="food-info">
+                <h3>Butter Vada Pav</h3>
+                <p>A popular street-food classic</p>
+                <div class="food-bottom">
+                    <span class="food-weight">1 piece</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥐</div>
+            <div class="food-info">
+                <h3>Puff</h3>
+                <p>Flaky and savoury</p>
+                <div class="food-bottom">
+                    <span class="food-weight">1 piece</span>
+                    <strong>₹20</strong>
+                </div>
+            </div>
+        </article>
+
+    </div>
 </section>
 
 
-<footer>
+<!-- CHAAT -->
+<section class="menu-section" id="chaat">
 
-    <div class="footer-brand">
-        <img src="logo.png" alt="Logo">
-        <h3>Jalaram nasta House</h3>
+    <div class="section-heading">
+        <span>03</span>
+        <div>
+            <h2>Chaat Corner</h2>
+            <p>Street-food favourites</p>
+        </div>
     </div>
 
-    <p>Authentic Gujarati Taste</p>
+    <div class="menu-grid">
 
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <article class="food-card">
+            <div class="food-icon">🥣</div>
+            <div class="food-info">
+                <h3>Pani Puri</h3>
+                <p>A tangy and refreshing snack</p>
+                <div class="food-bottom">
+                    <span class="food-weight">Ask in store</span>
+                    <strong>Ask</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥗</div>
+            <div class="food-info">
+                <h3>Dahi Puri</h3>
+                <p>Crispy puris with creamy dahi</p>
+                <div class="food-bottom">
+                    <span class="food-weight">Ask in store</span>
+                    <strong>Ask</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🌶️</div>
+            <div class="food-info">
+                <h3>Sev Puri</h3>
+                <p>A crunchy chaat favourite</p>
+                <div class="food-bottom">
+                    <span class="food-weight">Ask in store</span>
+                    <strong>Ask</strong>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+<!-- DRINKS -->
+<section class="menu-section alternate-section" id="drinks">
+
+    <div class="section-heading">
+        <span>04</span>
+        <div>
+            <h2>Refreshing Drinks</h2>
+            <p>Cool and refreshing companions</p>
+        </div>
     </div>
 
-    <p class="copyright">
-        © 2026 Jalaram nasta House.
-    </p>
+    <div class="menu-grid">
 
+        <article class="food-card">
+            <div class="food-icon">🥛</div>
+            <div class="food-info">
+                <h3>Buttermilk</h3>
+                <p>Classic Gujarati chaas</p>
+                <div class="food-bottom">
+                    <span class="food-weight">200 ml</span>
+                    <strong>₹20</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥛</div>
+            <div class="food-info">
+                <h3>Buttermilk</h3>
+                <p>Refreshing and flavourful</p>
+                <div class="food-bottom">
+                    <span class="food-weight">500 ml</span>
+                    <strong>₹30</strong>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-icon">🥛</div>
+            <div class="food-info">
+                <h3>Buttermilk</h3>
+                <p>Share with family</p>
+                <div class="food-bottom">
+                    <span class="food-weight">1 litre</span>
+                    <strong>₹50</strong>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="menu-footer">
+    <div class="footer-symbol">✦ ❖ ✦</div>
+    <h2>Jalaram Khaman House</h2>
+    <p>Fresh • Tasty • Traditional</p>
+    <p class="footer-gujarati">Jalaram Bapa na Aashirwad</p>
+    <a href="index.html">Back to Home ↑</a>
 </footer>
-
-
-<script src="script.js"></script>
 
 </body>
 </html>
