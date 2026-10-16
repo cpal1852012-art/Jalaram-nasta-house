@@ -2149,3 +2149,26 @@ footer > p {
         font-size: 14px;
     }
 }
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+    order: 2;
+  }
+
+  .nav-logo {
+    order: 1;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+  }
+}
